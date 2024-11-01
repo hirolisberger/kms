@@ -1,0 +1,6 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "key-sns"
+region = "ap-northeast-1"
+s3_bucket = "samdeploy-bucket"
+capabilities = "CAPABILITY_NAMED_IAM"
